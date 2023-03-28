@@ -1,6 +1,6 @@
 import { QueryClient, QueryClientProvider } from 'react-query';
 import './App.css';
-import { Board } from './components/board/Board';
+import { Board } from './components/board';
 
 const queryClient = new QueryClient();
 

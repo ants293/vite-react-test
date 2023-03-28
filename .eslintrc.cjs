@@ -20,6 +20,8 @@ module.exports = {
         quotes: ['error', 'single'],
         semi: ['error', 'always'],
         '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
+        'react-hooks/rules-of-hooks': 'error',
+        'react-hooks/exhaustive-deps': 'warn',
         '@typescript-eslint/explicit-function-return-type': ['error'],
         // force semi's at the end of all interfaces
         '@typescript-eslint/member-delimiter-style': [
